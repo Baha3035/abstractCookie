@@ -26,8 +26,7 @@ public class Developer extends Employee {
     }
 
     @Override
-    public void print() {
-        super.print();
-        System.out.println("Grade is " + grades);
+    void goToDayOff() {
+        System.out.println("I'm sick");
     }
 }

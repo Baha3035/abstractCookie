@@ -15,23 +15,20 @@ public class Main {
 
         CEO Larry = new CEO("Larry Bird", 50, 75000, true, true);
 
-        Andrew.print();
-        Steph.print();
-        Kelly.print();
-        Lebron.print();
-        Anthony.print();
-        Montrazl.print();
-        Shrodder.print();
-        Michael.print();
-        Magic.print();
-        Larry.print();
+        Employee[] employee = new Employee[10];
+        employee[0] = Andrew;
+        employee[1] = Steph;
+        employee[2] = Kelly;
+        employee[3] = Lebron;
+        employee[4] = Anthony;
+        employee[5] = Montrazl;
+        employee[6] = Shrodder;
+        employee[7] = Michael;
+        employee[8]= Magic;
+        employee[9] = Larry;
 
-        System.out.println(" ");
-        System.out.println("Unique programs begin below:");
-
-        Specialist.workWithClients();
-        Developer.writeCode();
-        Manager.writeProcedures();
-        CEO.goPublic();
+        for (int i = 0; i < 10; i++){
+            employee[i].goToDayOff();
+        }
     }
 }

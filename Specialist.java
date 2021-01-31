@@ -25,9 +25,7 @@ public class Specialist extends Employee{
         System.out.println("How can I help you?");
     }
 
-    @Override
-    public void print() {
-        super.print();
-        System.out.println("Level is " + levels);
+    public void goToDayOff(){
+        System.out.println("I've broken my fingers");
     }
 }

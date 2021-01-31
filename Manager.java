@@ -21,13 +21,9 @@ public class Manager extends Employee {
         this.hasStocks = hasStocks;
     }
 
-    static void writeProcedures(){
-        System.out.println("I'm done with procedures");
+    public void goToDayOff(){
+        System.out.println("Today is my son's birthday");
     }
 
-    @Override
-    public void print() {
-        super.print();
-        System.out.println("Has stocks: " + hasStocks);
-    }
+
 }

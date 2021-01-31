@@ -21,13 +21,8 @@ public class CEO extends Manager {
         this.hasCompanyCar = hasCompanyCar;
     }
 
-    static void goPublic(){
-        System.out.println("I'm currently working on IPO");
-    }
-
     @Override
-    public void print() {
-        super.print();
-        System.out.println("Has company car: " + hasCompanyCar);
+    public void goToDayOff() {
+        System.out.println("I have a wedding today");
     }
 }
