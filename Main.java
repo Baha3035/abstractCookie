@@ -1,3 +1,9 @@
+import kg.megacom.childs.CEO;
+import kg.megacom.childs.Developer;
+import kg.megacom.childs.Manager;
+import kg.megacom.childs.Specialist;
+import kg.megacom.parent.Employee;
+
 public class Main {
     public static void main(String[] args) {
 

@@ -1,4 +1,8 @@
-public class Specialist extends Employee{
+package kg.megacom.childs;
+
+import kg.megacom.parent.Employee;
+
+public class Specialist extends Employee {
     private int levels;
 
     public Specialist(String fio, int age, int salary, int levels) {

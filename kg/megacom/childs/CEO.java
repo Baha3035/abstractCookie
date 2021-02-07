@@ -1,3 +1,5 @@
+package kg.megacom.childs;
+
 public class CEO extends Manager {
     private boolean hasCompanyCar;
 

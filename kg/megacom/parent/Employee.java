@@ -1,3 +1,5 @@
+package kg.megacom.parent;
+
 public abstract class Employee {
     private String fio;
     private int age;
@@ -36,7 +38,7 @@ public abstract class Employee {
         this.salary = salary;
     }
 
-    abstract void goToDayOff();
+    public abstract void goToDayOff();
 
     }
 

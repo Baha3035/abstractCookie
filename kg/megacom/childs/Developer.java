@@ -1,3 +1,7 @@
+package kg.megacom.childs;
+
+import kg.megacom.parent.Employee;
+
 public class Developer extends Employee {
     private String grades = "Middle";
 
@@ -26,7 +30,7 @@ public class Developer extends Employee {
     }
 
     @Override
-    void goToDayOff() {
+    public void goToDayOff() {
         System.out.println("I'm sick");
     }
 }
