@@ -1,3 +1,5 @@
+package kg.megacom;
+
 import kg.megacom.childs.CEO;
 import kg.megacom.childs.Developer;
 import kg.megacom.childs.Manager;
