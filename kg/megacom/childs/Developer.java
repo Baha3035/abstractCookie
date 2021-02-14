@@ -14,6 +14,11 @@ public class Developer extends Employee {
     public Developer() {
     }
 
+    @Override
+    public void goToDayOff() {
+
+    }
+
     public Developer(DeveloperGrades grades) {
         this.grades = grades;
     }
@@ -30,8 +35,6 @@ public class Developer extends Employee {
         System.out.println("Yo I'm writing my program");
     }
 
-    @Override
-    public void goToDayOff() {
-        System.out.println("I'm sick");
+
     }
-}
+

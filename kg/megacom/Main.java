@@ -18,29 +18,19 @@ public class Main {
         Developer Montrazl = new Developer("Montrazl Harris", 21, 3000, DeveloperGrades.TEAMLEAD);
         Developer Shrodder = new Developer("Dennis Shrodder", 28, 1500, DeveloperGrades.MIDDLE);
 
+        Developer[] developer = new Developer[4];
+        developer[0] = Lebron;
+        developer[1] = Anthony;
+        developer[2] = Montrazl;
+        developer[3] = Shrodder;
+
         Manager Michael = new Manager("Michael Jordan", 45, 30000, false);
         Manager Magic = new Manager("Magic Johnson", 46, 60000, true);
 
         CEO Larry = new CEO("Larry Bird", 50, 75000, true, true);
-            printDeveloperGrade(Lebron);
-            printDeveloperGrade(Anthony);
-            printDeveloperGrade(Montrazl);
-            printDeveloperGrade(Shrodder);
-    }
-    private static void  printDeveloperGrade(Developer o) {
-            switch (o.getGrades()){
-                case JUNIOR:
-                    System.out.println("I'm junior developer");
-                   break;
-                case MIDDLE:
-                    System.out.println("I'm middle level developer");
-                    break;
-                case SENIOR:
-                    System.out.println("I'm senior developer");
-                    break;
-                case TEAMLEAD:
-                    System.out.println("I'm teamlead developer");
 
-            }
+        for(int i = 0; i < developer.length; i++){
+            DeveloperGrades.printPhrase(developer[i]);
+        }
     }
 }
